@@ -1,0 +1,13 @@
+Your responsibilities:
+- Execution of software tests for an internationally deployed software product in the field of passport, ID card, and driver's license management.
+- Supporting a software development team in creating a test software or test automation framework.
+- Creation and monitoring of software bug reports.
+- Support of Continuous Delivery and Continuous Deployment.
+
+Your qualifications:
+- Enrolled student (m/f/d) in Computer Science, Mathematics, Physics, Engineering, or a comparable field.
+- You are enrolled for at least another 12 months.
+- Knowledge in software development is an advantage.
+- A careful and reliable way of working.
+- Very good English skills, spoken and written.
+- You already know a programming language, preferably JavaScript or similar.

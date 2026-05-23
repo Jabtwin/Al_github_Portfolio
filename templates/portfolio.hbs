@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  {{{style}}}
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>{{user.username}}</h1>
+      <p>AI-Tailored GitHub Portfolio</p>
+    </div>
+
+    <div class="projects-grid">
+      {{#each projects}}
+      <div class="project-card">
+        <div class="project-header">
+          <div>
+            <h2 class="project-title">{{name}}</h2>
+            <a href="{{url}}" class="project-url">{{url}}</a>
+          </div>
+          <div class="match-score">Match Score: {{match_score}}/100</div>
+        </div>
+        
+        <p class="project-summary">{{tailored_summary}}</p>
+        
+        <div class="skills-container">
+          {{#each highlighted_skills}}
+          <span class="skill-tag">{{this}}</span>
+          {{/each}}
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</body>
+</html>

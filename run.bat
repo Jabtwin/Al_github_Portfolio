@@ -1,0 +1,3 @@
+@echo off
+echo Starting AI Portfolio Generator...
+py app.py
