@@ -1,8 +1,14 @@
 # AI-Tailored GitHub Portfolio Generator 🚀
 
+> **Short Description (For GitHub About section):**
+> An intelligent desktop application that uses Gemini AI and the GitHub API to generate a personalized, professional PDF portfolio perfectly tailored to any Job Description.
+
 An intelligent, fully automated desktop application that generates a highly professional, PDF-formatted GitHub portfolio tailored specifically to any Job Description (JD). 
 
 By leveraging the power of **Google Gemini 2.5 Flash** and the **GitHub API**, this tool analyzes your repositories, matches them against the skills required in a JD, and crafts customized summaries that highlight exactly why you are the perfect fit for the job!
+
+## 📸 Preview
+![Portfolio Generator Preview](images/portfolio_demo.png)
 
 ## ✨ Features
 - **Intelligent Relevance Engine**: AI automatically scores and ranks your GitHub repositories based on the provided Job Description.

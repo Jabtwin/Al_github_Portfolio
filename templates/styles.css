@@ -75,6 +75,13 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.project-header > div:first-child {
+  flex: 1;
+  min-width: 0;
 }
 
 .project-title {
@@ -82,12 +89,15 @@ body {
   font-weight: 700;
   color: var(--accent-navy);
   margin: 0 0 4px 0;
+  word-break: break-word;
 }
 
 .project-url {
   font-size: 13px;
   color: var(--text-secondary);
   text-decoration: none;
+  word-break: break-all;
+  display: block;
 }
 
 .match-score {
